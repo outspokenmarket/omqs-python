@@ -31,7 +31,7 @@ print(response)
 | Parameter   | Type   | Description                                                                 |
 |-------------|--------|-----------------------------------------------------------------------------|
 | `model`     | string | Type of model: `"b3_stocks"`, `"crypto"`, `"forex"`, etc.                   |
-| `ticker`    | string | Asset symbol depending on the model (e.g., `"PETR4.SA"`, `"BTCUSDT"`)       |
+| `ticker`    | string | Asset symbol depending on the model (e.g., `"PETR4"`, `"BTCUSDT"`)       |
 | `timeframe` | string | Chart timeframe: `"1m"`, `"5m"`, `"15m"`, `"1h"`, `"4h"`, `"1d"`             |
 
 ---
@@ -40,7 +40,7 @@ print(response)
 
 | Model          | Description                                | Supported Assets Examples                                 |
 |----------------|--------------------------------------------|-----------------------------------------------------------|
-| `b3_stocks`    | Model for B3 stocks                        | `"PETR4.SA"`, `"VALE3.SA"`                                |
+| `b3_stocks`    | Model for B3 stocks                        | `"PETR4"`, `"VALE3"`                                      |
 | `crypto`       | Model for cryptocurrencies                 | `"BTCUSDT"`, `"ETHUSDT"`                                  |
 | `forex`        | Model for currency pairs                   | `"EURUSD"`, `"GBPJPY"`                                    |
 | `b3_futures`   | Model for B3 futures                       | `"WDO"`, `"WIN"`                                          |
